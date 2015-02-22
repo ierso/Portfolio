@@ -1,0 +1,64 @@
+//resume page//
+
+#resume{
+	h2{
+		font-family: droid_sansbold;
+	}
+
+	b{
+		font-size: 18px;
+		font-family: droid_sansbold;
+		color: $black-color;
+	}
+
+	p{
+		font-size: 16px;
+		font-family: droid_sansregular;
+		color: $black-color;
+	}
+
+    	li{
+    		font-size: 16px;
+			font-family: Georgia;
+			color: $black-color;
+			line-height: 25px;
+    	}
+
+}
+
+
+#skill-group{
+	ul {
+    	padding: 0;
+    	list-style-type: none;
+    }
+}
+
+
+#resume{
+
+	.btn{
+		
+		margin-top: 20px;
+	}
+
+	#resume-portfolio{
+		.col-sm-4{
+			margin-top: 20px;
+		}
+	}
+
+	#skill-group{
+		margin-top: 20px;
+	}
+
+	.experience-group{
+		margin-top: 20px;
+	}
+
+	.education-group{
+		margin-top: 20px;
+	}
+
+
+}

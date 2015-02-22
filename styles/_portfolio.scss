@@ -1,0 +1,76 @@
+//portfolio page//
+
+#banner{
+	overflow: none;
+	background-image: url("/images/Banner.svg");
+	height: 180px;
+
+	.container{
+		text-align: center;
+
+		h1{
+			color: #555555;
+			font-family: droid_sansregular;
+
+		}
+	}
+}
+
+.text-banner{
+	margin-top: 40px;
+}
+
+@media (max-width: 496px){
+
+	.text-banner{
+	margin-top: 20px;
+	}
+
+}
+
+
+#portfolio{
+	.info{
+		padding-right: 50px;
+	}
+}
+
+.portfolio-descending{
+	h3{
+		a{
+			color: #4d90fe;
+		}
+
+		a:hover{
+			text-decoration: none;
+			color: $important;
+		}
+	}	
+}
+
+.portfolio-descending{
+	.info-sidebar{
+		padding-right: 70px;
+	}
+
+	.btn-primary{
+		margin-top: 10px;
+	}
+}
+
+.browser {
+	margin-top: 20px;
+	width: 100%;
+	overflow: hidden;
+	text-align: left;
+	box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, .1);
+}
+
+
+@media (max-width: 767px){
+		#portfolio {
+			.img-responsive{
+			padding-top: 30px;
+		}
+	}
+}
